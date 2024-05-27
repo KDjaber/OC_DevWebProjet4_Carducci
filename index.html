@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta name="description" content="Site de photographie de Nina Carducci">
+	<title>Nina Carducci - Photographe</title>
+	<meta name="description" content="Site de photographie de Nina Carducci. Disponible en Île-de-France pour des shootings photo et partout pour des retouches !">
+	<meta property=”og:title” content="Nina Carducci - Photographe en Île-de-France">
+	<meta property=”og:description” content="Site de photographie de Nina Carducci. Disponible en Île-de-France pour des shootings photo et partout pour des retouches !">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<title>Nina Carducci - Photographe</title>
 	<link defer rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,16 +62,28 @@
 	</div>
 </div>
 
-<div id="about">
+<div id="about" itemscope itemtype="https://schema.org/LocalBusiness">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="Photo de Nina Carducci">
+		<span itemprop="image"><img src="./assets/images/nina.webp" alt="Photo de Nina Carducci"></span>
 	</div>
 	<div id="about-me">
 		<h2>A propos de moi</h2>
-		<div class="about-me__introduction"><p>Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p></div>
+		<div class="about-me__introduction"><p>
+			Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p></div>
 		<div class="about-me__text"><p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 		<br>
 		C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de la lumière à chaque fois que vous poserez les yeux sur vos photos.</p></div>
+		<hr>
+		<div class="about-me__info">
+			<p><span itemprop="name">Nina Carducci</span></p>
+			<div itemprop="address">
+				<p><span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span>
+				<br>
+				<span itemprop="telephone">05 56 67 78 89</span>
+				<br>
+				Je réponds au téléphone du <span itemprop="openingHours">lundi au vendredi de 10 h à 19 h</span></p>
+			</div>
+		</div>
 	</div>
 </div>
 

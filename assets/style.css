@@ -76,6 +76,7 @@ nav a {
 	width: 100%;
 
 }
+
 #about-me {
 	flex: 2
 }
@@ -95,6 +96,12 @@ h2 {
 }
 
 .about-me__text p {
+	font-size: 14px;
+	width: 80%;
+	margin-bottom: 110px;
+}
+
+.about-me__info p {
 	font-size: 14px;
 	width: 80%;
 }
